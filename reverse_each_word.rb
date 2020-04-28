@@ -8,5 +8,5 @@ def reverse_each_word(sentence)
     rev.reverse
       binding.pry
   end
-
+  array.join
 end
