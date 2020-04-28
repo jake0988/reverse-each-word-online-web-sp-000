@@ -4,3 +4,4 @@ def reverse(array)
     array.reverse
   end
   array.join
+end
