@@ -6,6 +6,7 @@ def reverse_each_word(sentence)
   #  binding.pry
   array.collect do |rev|
     rev.reverse
+    array.join(" ")
   end
-  array.join(" ")
+
 end
