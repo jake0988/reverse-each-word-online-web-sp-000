@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   array = sentence.split(" ")
   #  binding.pry
   array.collect do |rev|
-    reverse(rev)
+    array.reverse(rev)
   end
 
 end
