@@ -1,9 +1,9 @@
 require 'pry'
-def reverse_each_word(array)
-  array.split(/\s/)
+def reverse_each_word(sentence)
+  sentence.split(/\s/)
   # binding.pry
-  array.collect do |rev|
-    array.reverse
+  sentence.collect do |rev|
+    rev.reverse
   end
-  array.join
+  sentence.join
 end
